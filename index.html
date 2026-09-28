@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Harseerat Kaur | Product Manager</title>
-<meta name="description" content="Harseerat Kaur: product manager with 3.5 years across product, data and engineering. Case studies: DASTAAR (100+ orders) and an Explore page for a top consumer lending firm.">
+<meta name="description" content="Harseerat Kaur: product professional with 3.5 years across product, data analytics and engineering. Case studies: DASTAAR (100+ orders), an Explore page for a top consumer lending firm, and a B-school career platform.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@ nav .wrap{display:flex;align-items:center;gap:18px;height:66px}
 
 /* story notes */
 .story{position:relative;display:inline-block;z-index:5}
-.story-btn{font:inherit;font-weight:800;font-size:.82rem;cursor:pointer;color:var(--on);background:var(--sun);border:2.5px solid var(--line);border-radius:4px 4px 14px 4px;padding:5px 10px 5px 9px;box-shadow:3px 3px 0 var(--shadow);transform:rotate(-3deg);display:inline-flex;align-items:center;gap:6px;transition:transform .15s ease}
+.story-btn{font:inherit;font-weight:800;font-size:.82rem;cursor:pointer;color:var(--on);background:var(--sun);border:2.5px solid var(--line);border-radius:4px 4px 14px 4px;padding:5px 10px 5px 9px;box-shadow:3px 3px 0 var(--shadow);transform:rotate(-3deg);display:inline-flex;align-items:center;gap:6px;white-space:nowrap;transition:transform .15s ease}
 .story-btn svg{width:15px;height:15px;flex:none}
 .story-btn:hover,.story.open .story-btn{transform:rotate(2deg) scale(1.06)}
 .pop{display:none;position:absolute;top:calc(100% + 14px);left:0;z-index:40;width:min(340px,calc(100vw - 40px));background:var(--paper);color:var(--ink);border:3px solid var(--line);border-radius:16px;box-shadow:6px 6px 0 var(--shadow);padding:14px 16px 12px;font-size:.93rem;line-height:1.5;text-align:left;font-weight:500}
@@ -123,7 +123,9 @@ section{padding:60px 0}
 .mini-phone i.c{height:38px}
 @media (max-width:760px){.case{grid-template-columns:1fr}.case .thumb{border-right:0;border-bottom:3px solid var(--line);min-height:210px}}
 
-.more{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;margin-top:40px}
+.more{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:26px;margin-top:40px}
+.proj-link{display:inline-block;margin-top:12px;font-weight:800;font-size:.9rem;border:2.5px solid var(--line);border-radius:12px;padding:5px 12px;text-decoration:none;box-shadow:3px 3px 0 var(--shadow);background:var(--sun);color:#17173D}
+.proj:nth-child(3)::before{background:var(--lilac);transform:rotate(-2deg)}
 .proj{background:var(--paper);border:3px solid var(--line);border-radius:10px;box-shadow:6px 6px 0 var(--shadow);padding:26px 22px 20px;position:relative}
 .proj::before{content:"";position:absolute;top:-14px;left:50%;width:96px;height:26px;margin-left:-48px;background:var(--peach);opacity:.9;border:2px solid var(--line);transform:rotate(-4deg)}
 .proj:nth-child(2)::before{background:var(--mint);transform:rotate(3deg)}
@@ -214,7 +216,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
 .prose p{max-width:66ch;margin:0 0 14px;font-size:1.06rem}
 .hmw{background:var(--sun);color:var(--on);border:3px solid var(--line);border-radius:22px;box-shadow:6px 6px 0 var(--shadow);padding:20px 24px;font-family:'Lilita One',sans-serif;font-size:clamp(1.3rem,3vw,1.75rem);line-height:1.2;max-width:34ch;margin:22px 0;transform:rotate(-1deg)}
 .hmw small{display:block;font-family:'Figtree',sans-serif;font-weight:800;font-size:.9rem;margin-bottom:6px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
 @media (max-width:760px){.two{grid-template-columns:1fr}}
 .box{background:var(--paper);border:3px solid var(--line);border-radius:18px;box-shadow:5px 5px 0 var(--shadow);padding:18px 20px}
 .box h3{font-size:1.35rem;margin-bottom:8px}
@@ -396,7 +398,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
 .chips span{background:var(--paper);border:2.5px solid var(--line);border-radius:999px;padding:2px 12px;font-weight:700;font-size:.88rem}
 .optrow{display:flex;align-items:baseline;gap:12px}
-.optrow b{flex:none;width:78px;font-size:.9rem}
+.optrow b{flex:none;width:92px;font-size:.9rem}
 .optrow .chips{margin-bottom:8px}
 .detour{background:var(--paper);border:3px dashed var(--line);border-radius:14px;padding:10px 14px;font-size:.95rem;margin-top:4px}
 .jshot{margin:0;width:190px}
@@ -418,6 +420,105 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
 .flow.tight .ar{width:22px}
 @media (max-width:900px){.fan{grid-template-columns:repeat(3,minmax(0,1fr))}.fan::before,.fan::after{display:none}.fan{padding:6px 0 14px}}
 @media (max-width:760px){.jstep{grid-template-columns:minmax(0,1fr);padding-left:58px}.jmap::before{left:19px}.jstep::before{width:40px;height:40px}.fan{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.way-img{height:140px}.optrow{display:block}.optrow b{display:block;margin-bottom:4px}.flow.tight{gap:8px}.flow.tight .ar{display:none}}
+/* BikeX */
+.th-b{background:#141B2D}
+.th-b img{width:88%;max-width:420px;height:auto;display:block;border:3px solid #000;border-radius:12px;box-shadow:6px 6px 0 #000;transform:rotate(-3deg)}
+.jshot.wide{width:380px}
+.browser.sm{margin:0;border-radius:14px;box-shadow:5px 5px 0 var(--shadow)}
+.browser.sm .chrome{padding:6px 10px;border-bottom-width:2.5px}
+.browser.sm .chrome i{width:9px;height:9px;border-width:2px}
+.browser .zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.fan.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+#lb.wide{max-width:min(1000px,94vw)}
+#lb.wide p{max-width:70ch}
+@media (max-width:900px){.jshot.wide{width:100%;max-width:420px}}
+@media (max-width:760px){.fan.three{grid-template-columns:1fr}.fan.three .way-img{height:170px}}
+/* B-school career platform */
+.th-s{background:var(--mint)}
+.th-s img{width:74%;max-width:340px;height:auto;display:block;border:3px solid #17173D;border-radius:6px;box-shadow:6px 6px 0 #17173D;transform:rotate(2deg)}
+.paper{position:relative;background:#fff;border:3px solid var(--line);border-radius:6px;box-shadow:6px 6px 0 var(--shadow);padding:10px;margin:0}
+.paper::before{content:"";position:absolute;top:-13px;left:50%;width:84px;height:24px;margin-left:-42px;background:var(--sun);opacity:.9;border:2px solid var(--line);transform:rotate(-3deg);z-index:1}
+.paper img{display:block;width:100%;height:auto;border-radius:2px}
+.paper .zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.hero-paper{max-width:500px;margin:14px 0 30px;transform:rotate(-1deg)}
+.map-paper{max-width:620px;margin:6px 0 40px}
+.jshot .paper::before{width:60px;margin-left:-30px;height:20px}
+.paper-bg{background:#fff}
+.jtbd{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px;margin-top:24px}
+.jtbd div{border:2.5px solid var(--line);border-radius:14px;padding:10px 14px;background:var(--paper);font-size:.93rem}
+.jtbd b{display:block;font-family:'Lilita One',sans-serif;font-weight:400;font-size:1.1rem}
+.jtbd .out{border-style:dashed;background:transparent}
+.table-scroll{overflow-x:auto;padding:0 8px 10px 0}
+.rice{min-width:640px}
+.rice td:first-child{width:auto}
+.rice tr.in td:first-child::after{content:"MVP";margin-left:8px;font-size:.72rem;font-weight:800;background:var(--mint);color:#17173D;border:2px solid #17173D;border-radius:999px;padding:0 7px;vertical-align:2px}
+.rice tr.cut td{background:var(--bg);text-align:center;font-weight:800;font-size:.85rem;border-top:3px dashed var(--line);border-bottom:3px dashed var(--line);padding:6px}
+.rice .bar{display:inline-flex;align-items:center;gap:10px;font-weight:800;white-space:nowrap}
+.rice .bar::after{content:"";display:inline-block;height:12px;width:calc(96px * var(--f));background:var(--sun);border:2px solid var(--line);border-radius:6px}
+.opts{min-width:560px}
+.opts th small{font-family:'Figtree',sans-serif;font-size:.78rem;font-weight:700}
+.opts th:last-child,.opts td:last-child{background:var(--mint);color:#17173D;font-weight:700}
+.hours td:last-child{text-align:right;font-weight:800;width:90px}
+.hours td:first-child{width:auto}
+.hours{align-self:start}
+.hours tr.total td{background:var(--sun);color:#17173D;font-weight:800}
+/* B-school career platform: designs and PRDs */
+.th-s img{width:86%;max-width:420px;border-radius:10px;transform:rotate(-2deg)}
+.bb-hero{position:relative;max-width:900px;margin:10px 0 34px;padding-right:120px}
+.bb-hero .browser img{display:block;width:100%;height:auto}
+.bb-phone{position:absolute;right:0;bottom:-24px;margin:0;width:170px;transform:rotate(3deg)}
+.bb-phone .phone.real.sm{width:170px}
+.card-frame{margin:0 0 40px;max-width:900px;background:#fff;border:3px solid var(--line);border-radius:18px;box-shadow:6px 6px 0 var(--shadow);overflow:hidden}
+.card-frame .zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.card-frame img{display:block;width:100%;height:auto}
+.prd-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:-3px;position:relative;z-index:1}
+.prd-tabs button{font:inherit;font-weight:800;font-size:.95rem;cursor:pointer;padding:10px 16px;border:3px solid var(--line);border-bottom:0;border-radius:14px 14px 0 0;background:var(--bg);color:var(--ink)}
+.prd-tabs button[aria-selected="true"]{background:var(--paper);box-shadow:inset 0 5px 0 var(--sun)}
+.prd{background:var(--paper);border:3px solid var(--line);border-radius:0 18px 18px 18px;box-shadow:7px 7px 0 var(--shadow);overflow:hidden}
+.prd-meta{padding:20px 24px;border-bottom:3px dashed var(--line);background:var(--bg)}
+.prd-meta h3{font-size:clamp(1.4rem,3vw,1.9rem);margin-bottom:12px}
+.prd-meta dl{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0}
+.prd-meta dl div{display:flex;gap:6px;font-size:.9rem}
+.prd-meta dt{font-weight:800;color:var(--muted)}
+.prd-meta dd{margin:0;font-weight:700}
+.prd-body{padding:6px 24px 24px}
+.prd-body section{padding:18px 0;border-bottom:2px solid var(--dot)}
+.prd-body section:last-child{border-bottom:0;padding-bottom:0}
+.prd-body h4{font-family:'Lilita One',sans-serif;font-weight:400;font-size:1.25rem;margin:0 0 8px}
+.prd-body p{margin:0;max-width:72ch}
+.prd-body ul{margin:0;padding-left:20px}
+.prd-body li{margin-bottom:5px}
+.prd-2col{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.prd-t{font-size:.93rem;box-shadow:none;border-width:2.5px}
+.prd-t td:first-child{width:auto;white-space:nowrap}
+.prd-t thead th{font-size:1rem}
+.pri{display:inline-block;font-weight:800;font-size:.8rem;border:2px solid #17173D;border-radius:999px;padding:1px 10px;color:#17173D;white-space:nowrap}
+.pri.must{background:var(--mint)}.pri.should{background:var(--sun)}.pri.could{background:var(--lilac)}.pri.wont{background:#fff;border-style:dashed}
+.metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:12px}
+.metric-grid div{border:2.5px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--paper)}
+.metric-grid small{display:block;font-weight:800;color:var(--muted);font-size:.8rem}
+.metric-grid b{font-size:.98rem}
+.metric-grid .north{background:var(--sun);color:#17173D;grid-column:1/-1}
+.metric-grid .north small{color:#17173D}
+.metric-grid .guard{border-style:dashed}
+.us{border:2.5px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:12px;background:var(--bg)}
+.us .as{font-weight:700;margin-bottom:8px}
+.gwt{list-style:none;padding-left:0!important;margin:0}
+.gwt li{margin-bottom:3px}
+.gwt b{display:inline-block;min-width:52px;font-size:.8rem;background:var(--lilac);color:#17173D;border-radius:6px;padding:0 6px;margin-right:6px;text-align:center}
+.code li{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88rem}
+.ds{margin-top:6px}
+.ds-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:14px}
+.ds-grid>div{border:2.5px solid var(--line);border-radius:14px;padding:12px 14px;background:var(--paper)}
+.ds-sw i{display:block;height:44px;border-radius:8px;background:var(--s);border:2px solid var(--line);margin-bottom:8px}
+.ds-grid b{display:block}
+.ds-grid small{color:var(--muted);font-weight:600;font-size:.84rem}
+.ds-type b{font-size:1.3rem;margin-bottom:4px}
+@media (max-width:760px){.prd-2col{grid-template-columns:1fr}.bb-hero{padding-right:0}.bb-phone{position:relative;right:auto;bottom:auto;margin:-40px 0 0 auto;width:130px}.bb-phone .phone.real.sm{width:130px}.prd-body{padding:4px 16px 18px}.prd-meta{padding:16px}.prd-tabs button{font-size:.85rem;padding:8px 12px}}
+.th-e{gap:0;min-height:300px}
+.th-e img{width:128px;height:auto;display:block;position:relative;filter:drop-shadow(5px 5px 0 #17173D)}
+.th-e img:first-child{transform:rotate(-6deg) translateX(14px);z-index:1}
+.th-e img:last-child{transform:rotate(5deg) translate(-14px,16px)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -442,7 +543,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       <div class="story" data-id="US-01" data-a="a" data-who="hiring manager" data-want="to see what Harseerat has built within ten seconds" data-so="I can judge her product work, not just re-read her resume" data-done="Target role is above the fold|The first button leads to case studies|Contact is one click away"></div>
       <p class="hello">Hi, I'm</p>
       <h1>Harseerat Kaur</h1>
-      <p class="tagline">Product manager with 3.5 years across product, data and engineering. MDI Gurgaon '26, ex-BlackRock, ex-Info Edge.</p>
+      <p class="tagline">Product professional with 3.5 years across product, data analytics and engineering. MDI Gurgaon '26, ex-BlackRock, ex-Info Edge.</p>
       <p class="bubble">I turn messy user and business problems into products people use, and I bring the SQL to prove they worked.</p>
       <div class="cta-row">
         <a class="btn primary big" href="#work">View my work</a>
@@ -453,13 +554,12 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
     <aside class="road" aria-label="Career path">
       <h2>The road so far</h2>
       <ol>
-        <li style="--c:var(--lilac)"><span class="yr">2016 to 2020</span><span class="what">B.E. Electronics &amp; Computers, Thapar</span></li>
+        <li style="--c:var(--lilac)"><span class="yr">2016 to 2020</span><span class="what">B.E. Electronics &amp; Computers, Thapar Institute</span></li>
         <li style="--c:var(--peach)"><span class="yr">2020</span><span class="what">Analyst, BlackRock</span></li>
         <li style="--c:var(--mint)"><span class="yr">2022</span><span class="what">Senior Software Engineer, Info Edge</span></li>
         <li style="--c:var(--pink)"><span class="yr">2024</span><span class="what">PGDM, MDI Gurgaon</span></li>
-        <li style="--c:var(--sun)"><span class="yr">2025</span><span class="what">Product Management, Bajaj Finserv</span></li>
-        <li style="--c:var(--peach)"><span class="yr">Side build</span><span class="what">DASTAAR, family e-commerce, 100+ orders</span></li>
-        <li class="now" style="--c:var(--blue)"><span class="yr">Now</span><span class="what">Product &amp; Growth, US lending platform</span></li>
+        <li style="--c:var(--sun)"><span class="yr">2025</span><span class="what">Product Management Intern, Bajaj Finance</span></li>
+        <li class="now" style="--c:var(--blue)"><span class="yr">2026, now</span><span class="what">Consultant, Indus Insights</span></li>
       </ol>
     </aside>
   </div>
@@ -470,7 +570,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
     <div class="sec-head">
       <h2>Case studies</h2>
       <div class="story" data-id="US-02" data-a="an" data-who="interviewer" data-want="to walk through real product work from problem to screens to impact" data-so="I can see how she thinks, not only what she shipped" data-done="Each case study shows problem, users, customer journey and impact|Real screens back up the story"></div>
-      <p class="sec-sub">Two products I owned end to end. Each one walks through the problem, the users, the customer journey and the impact.</p>
+      <p class="sec-sub">Three products I owned end to end. Each one walks through the problem, the users, the customer journey and the impact.</p>
     </div>
     <div class="cases">
       <a class="case" href="#/dastaar">
@@ -479,7 +579,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
           <span class="word">DASTAAR</span>
         </div>
         <div class="body">
-          <span class="kicker">Live, built solo, 100+ orders</span>
+          <span class="kicker">Live, 100+ orders</span>
           <h3>DASTAAR: taking a 1973 turban shop online</h3>
           <p>I designed and built the online store for my family's turban business in Jalandhar. It has taken 100+ orders so far, shipped to India, Canada, the USA and Australia.</p>
           <div class="tags"><span>0 to 1</span><span>E-commerce</span><span>Brand</span><span>Web build</span></div>
@@ -488,7 +588,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       </a>
       <a class="case" href="#/explore">
         <div class="thumb th-e" aria-hidden="true">
-          <div class="mini-phone"><i class="h"></i><div class="row"><i></i><i></i><i></i></div><i class="c"></i><i class="c"></i><i class="c"></i></div>
+          <img src="img/ex-home.png" alt="" width="393" height="812"><img src="img/ex-explore.png" alt="" width="393" height="812">
         </div>
         <div class="body">
           <span class="kicker" style="background:var(--sun)">Top consumer lending firm, 2025</span>
@@ -498,10 +598,22 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
           <span class="fake-btn">Read the case study</span>
         </div>
       </a>
+      <a class="case" href="#/bschool">
+        <div class="thumb th-s" aria-hidden="true">
+          <img src="img/bbd-home-top.jpg" alt="" width="1440" height="640">
+        </div>
+        <div class="body">
+          <span class="kicker">Live project, 6 weeks</span>
+          <h3>A B-school career platform: from wishlist to MVP in 6 weeks</h3>
+          <p>An early-stage B-school community wanted a website for students, colleges and companies. I scoped the MVP, wrote the PRDs, designed the screens and planned the build.</p>
+          <div class="tags"><span>PRDs</span><span>Prioritisation</span><span>Hi-fi design</span><span>Sprint plan</span></div>
+          <span class="fake-btn">Read the case study</span>
+        </div>
+      </a>
     </div>
     <div class="more">
-      <article class="proj"><h3>Bschool Buddies</h3><span class="dur">6 weeks, live project</span><p>Wrote the PRD and user stories, built 7+ Figma prototypes and benchmarked 12 competitors to set MVP scope and a 3-month launch plan.</p></article>
       <article class="proj"><h3>Virtuorigin</h3><span class="dur">26 weeks, live project</span><p>Sized a $150M+ market from 50 reports and 25 interviews, then built a 5-year go-to-market roadmap across 7 categories.</p></article>
+      <article class="proj"><h3>BikeX</h3><span class="dur">Bike rental booking site</span><p>Designed and built the booking flow for self-ride bike rentals: three ways into one booking, and one-way trips across four cities in Punjab.</p><a class="proj-link" href="https://github.com/harseerat21/bikeX" target="_blank" rel="noopener">View the code on GitHub</a></article>
     </div>
   </div>
 </section>
@@ -516,9 +628,9 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       <article class="job big">
         <div class="job-top">
           <div>
-            <h3>Indus Insights</h3>
-            <p class="role">Product &amp; Growth, US consumer lending platform</p>
-            <span class="when">Apr 2026 to now, Gurugram (title: Consultant)</span>
+            <h3>Indus Insights and Analytical Services</h3>
+            <p class="role">Consultant, Product &amp; Growth Strategy, US Consumer Lending Platform</p>
+            <span class="when">Apr 2026 to now, Gurugram</span>
           </div>
           <div class="story right" data-id="US-03a" data-a="the" data-who="head of a US lending platform" data-want="to grow acquisitions without growing fraud losses" data-so="every new customer is a profitable one" data-done="Risky channels are found and fixed|At-risk cohorts are flagged early|KPIs update without manual work"></div>
         </div>
@@ -534,17 +646,17 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       <article class="job">
         <div class="job-top">
           <div>
-            <h3>Bajaj Finserv</h3>
-            <p class="role">Product Management, Digital Platforms</p>
+            <h3>Bajaj Finance</h3>
+            <p class="role">Product Management Intern, Digital Platforms</p>
             <span class="when">Apr to Jun 2025, Pune</span>
           </div>
           <div class="story right" data-id="US-03b" data-a="a" data-who="Bajaj app user" data-want="a page that shows me what's new and relevant to me" data-so="I find the right product without digging" data-done="User intents come from real research|MVP and KPIs are agreed by all teams"></div>
         </div>
         <ul>
           <li>Owned the vision and requirements for the Explore page and a GenAI personalization engine, aligning <mark>12+</mark> stakeholders</li>
-          <li>Ran <mark>27</mark> interviews and <mark>94</mark> surveys; built 5 personas and journey maps</li>
-          <li>Built a 5-phase roadmap targeting <mark>+15%</mark> engagement and <mark>+12%</mark> repeat visits</li>
-          <li>Found a <mark>49%</mark> funnel drop-off in Mixpanel and turned it into 3 UX fixes</li>
+          <li>Ran <mark>27</mark> interviews and <mark>94</mark> surveys; built 5 personas and journey maps, benchmarking 10+ competitor apps</li>
+          <li>Built a 5-phase roadmap for 4 initiatives, targeting <mark>+15%</mark> engagement and <mark>+12%</mark> repeat visits</li>
+          <li>Found a <mark>49%</mark> funnel drop-off in Mixpanel and turned it into 3 UX and process fixes</li>
           <li>Owned the homepage UPI strip integration end to end</li>
         </ul>
         <a class="cs-link" href="#/explore">Read the Explore page case study</a>
@@ -552,8 +664,8 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       <article class="job">
         <div class="job-top">
           <div>
-            <h3>Info Edge (Shiksha)</h3>
-            <p class="role">Senior Software Engineer</p>
+            <h3>Info Edge (India)</h3>
+            <p class="role">Senior Software Engineer, Technology (Shiksha)</p>
             <span class="when">Apr 2022 to Aug 2023, Noida</span>
           </div>
           <div class="story right" data-id="US-03c" data-a="a" data-who="student exploring colleges" data-want="quick, guided onboarding" data-so="I can register and get counselling without friction" data-done="A chatbot guides sign-up across categories|Leads reach the right counsellor fast"></div>
@@ -595,7 +707,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
         <p>I like the whole arc: talking to users, writing the PRD, prioritising the roadmap, then checking the numbers after launch to see if we were right.</p>
       </div>
       <div class="hats">
-        <div class="hat"><h3>I own the problem</h3><p>Discovery, PRDs, roadmaps and launches at Bajaj Finserv, Indus and on DASTAAR (100+ orders).</p></div>
+        <div class="hat"><h3>I own the problem</h3><p>Discovery, PRDs, roadmaps and launches at Bajaj Finance, Indus Insights and on DASTAAR (100+ orders).</p></div>
         <div class="hat"><h3>I speak data</h3><p>SQL, Python, Mixpanel, CleverTap. Funnels and cohorts are how I think.</p></div>
         <div class="hat"><h3>I've been the engineer</h3><p>Two years building at Info Edge. I know what a sprint really costs.</p></div>
       </div>
@@ -610,10 +722,10 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       <div class="story" data-id="US-05" data-a="a" data-who="recruiter" data-want="to scan her skills by category" data-so="I can match them to my job description in seconds" data-done="Skills sit in four groups|Tools are named, not implied|Strongest skills stand out"></div>
     </div>
     <div class="kit">
-      <div style="--c:var(--pink)"><h3><i></i>Product</h3><div class="stickers"><span class="hot">Product discovery</span><span class="hot">PRDs</span><span>Roadmaps</span><span>User stories</span><span>MVP definition</span><span>Prioritisation</span><span>Go-to-market</span><span>Success metrics</span></div></div>
-      <div style="--c:var(--mint)"><h3><i></i>Data &amp; analytics</h3><div class="stickers"><span class="hot">SQL</span><span class="hot">Funnels &amp; cohorts</span><span>Python</span><span>A/B testing</span><span>Mixpanel</span><span>CleverTap</span><span>Power BI</span><span>Tableau</span><span>User research</span></div></div>
-      <div style="--c:var(--lilac)"><h3><i></i>AI &amp; technical</h3><div class="stickers"><span class="hot">LLM integration</span><span class="hot">Conversational AI</span><span>Prompt design</span><span>Model evaluation</span><span>AI personalization</span><span>APIs</span><span>System design</span><span>Claude</span><span>n8n</span></div></div>
-      <div style="--c:var(--peach)"><h3><i></i>Delivery</h3><div class="stickers"><span class="hot">Stakeholder management</span><span>Agile / Scrum</span><span>Sprint planning</span><span>Release management</span><span>Jira</span><span>Confluence</span><span>Figma</span><span>Miro</span></div></div>
+      <div style="--c:var(--pink)"><h3><i></i>Product management</h3><div class="stickers"><span class="hot">Product strategy &amp; vision</span><span class="hot">Product discovery</span><span>Roadmaps</span><span>PRDs</span><span>User stories</span><span>Acceptance criteria</span><span>Backlog prioritisation</span><span>MVP definition</span><span>Product lifecycle</span><span>Go-to-market</span><span>End-to-end ownership</span><span>Success metrics</span></div></div>
+      <div style="--c:var(--mint)"><h3><i></i>Data &amp; analytics</h3><div class="stickers"><span class="hot">SQL</span><span class="hot">Product analytics</span><span>Python</span><span>A/B testing</span><span>Funnel &amp; cohort analysis</span><span>KPI definition</span><span>Dashboards</span><span>CleverTap</span><span>Mixpanel</span><span>Power BI</span><span>Tableau</span><span>User research</span><span>Competitive analysis</span></div></div>
+      <div style="--c:var(--lilac)"><h3><i></i>AI &amp; technical</h3><div class="stickers"><span class="hot">GenAI</span><span class="hot">LLM integration</span><span>Prompt design</span><span>Conversational AI</span><span>Context handling</span><span>Model evaluation</span><span>AI workflows</span><span>AI personalization</span><span>Rapid prototyping</span><span>APIs</span><span>System design</span><span>Claude</span><span>n8n</span></div></div>
+      <div style="--c:var(--peach)"><h3><i></i>Delivery &amp; collaboration</h3><div class="stickers"><span class="hot">Stakeholder management</span><span class="hot">Cross-functional leadership</span><span>Agile / Scrum</span><span>Sprint planning</span><span>Release management</span><span>Requirements gathering</span><span>Jira</span><span>Confluence</span><span>Figma</span><span>Miro</span></div></div>
     </div>
   </div>
 </section>
@@ -625,8 +737,8 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       <div class="story" data-id="US-06" data-a="a" data-who="campus recruiter" data-want="her education, wins and certifications at a glance" data-so="I can clear the screening checklist quickly" data-done="Degrees show school, years and scores|Competition ranks show the size of the field"></div>
     </div>
     <div class="creds">
-      <div class="cred"><h3>Education</h3><ul><li><b>MDI Gurgaon</b>PGDM, 2024 to 2026<br><small>CGPA 7.4 / 10</small></li><li><b>Thapar Institute, Patiala</b>B.E. Electronics &amp; Computers, 2016 to 2020<br><small>CGPA 8.7 / 10</small></li></ul></div>
-      <div class="cred"><h3>Wins &amp; leadership</h3><ul><li><b>Kenvue Future Leaders</b><small>Top 30 of 3.5K+</small></li><li><b>Flipkart Vidyarthini</b><small>Top 72 of 2K+</small></li><li><b>Unstop</b><small>Top 100 B-School Leaders</small></li><li><b>ThinC, Senior Member</b><small>Led 7 live product projects, co-authored the Product Casebook</small></li></ul></div>
+      <div class="cred"><h3>Education</h3><ul><li><b>MDI Gurgaon</b>Post Graduate Diploma in Management, 2024 to 2026<br><small>CGPA 7.4 / 10</small></li><li><b>Thapar Institute of Engineering &amp; Technology, Patiala</b>B.E. Electronics &amp; Computers, 2016 to 2020<br><small>CGPA 8.7 / 10</small></li></ul></div>
+      <div class="cred"><h3>Wins &amp; leadership</h3><ul><li><b>Kenvue Future Leaders</b><small>Top 30 of 3.5K+</small></li><li><b>Flipkart Vidyarthini</b><small>Top 72 of 2K+</small></li><li><b>Unstop</b><small>Top 100 B-School Leaders</small></li><li><b>ThinC, Senior Member</b><small>Led 7 live product projects, co-authored the Product Casebook, and drove initiatives engaging 1.2K+ students</small></li></ul></div>
       <div class="cred"><h3>Certifications</h3><ul><li><b>Lean Six Sigma Green Belt</b><small>KPMG</small></li><li><b>Project Management</b><small>Google</small></li><li><b>Data Analyst Toolbox</b></li></ul></div>
     </div>
   </div>
@@ -659,7 +771,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
         <img src="img/desktop-hero.jpg" width="1080" height="624" alt="The DASTAAR homepage: a group of men in colourful turbans under the DASTAAR by Tehal Singh &amp; Sons logo, with a 'hand-finished in Jalandhar' tag.">
       </figure>
       <div class="glance">
-        <div><b>My role</b><span>Product, design and build, solo</span></div>
+        <div><b>My role</b><span>Product, design and build</span></div>
         <div><b>Stage</b><span>Live, 100+ orders</span></div>
         <div><b>Users</b><span>Buyers in India and abroad</span></div>
         <div><b>Shipped to</b><span>India, Canada, USA, Australia</span></div>
@@ -677,7 +789,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
           <p>Customers in other cities or abroad had to ask relatives to shop for them and guess colours over a phone call.</p>
           <div class="hmw"><small>How might we</small>let anyone, anywhere, buy the exact turban they want from a shop in Jalandhar?</div>
         </div>
-        <div class="box"><h3>Constraints I worked with</h3><ul><li>No team: one person for product, design and build</li><li>Colour is the product, and screens distort colour</li><li>Turbans are sold by the metre, so the price depends on fabric, length and stitching</li><li>Many buyers live abroad, far from the shop</li><li>A new online name has to borrow 50 years of trust</li></ul></div>
+        <div class="box"><h3>Constraints I worked with</h3><ul><li>Colour is the product, and screens distort colour</li><li>Turbans are sold by the metre, so the price depends on fabric, length and stitching</li><li>Many buyers live abroad, far from the shop</li><li>A new online name has to borrow 50 years of trust</li></ul></div>
       </div>
     </section>
 
@@ -796,7 +908,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
           <tr><td>Brand</td><td>A name on the shop sign</td><td>DASTAAR, a brand and a live store</td></tr>
         </tbody>
       </table>
-      <div class="box" style="margin-top:28px"><h3>What I learned</h3><ul><li>Shipping solo means ruthless scope: launch the catalogue first, add campaigns and add-ons after</li><li>For a family business, trust is the product, so heritage goes above the fold</li><li>Match how people already buy: by colour, by the metre, with a phone call to close</li></ul></div>
+      <div class="box" style="margin-top:28px"><h3>What I learned</h3><ul><li>Launching fast means ruthless scope: launch the catalogue first, add campaigns and add-ons after</li><li>For a family business, trust is the product, so heritage goes above the fold</li><li>Match how people already buy: by colour, by the metre, with a phone call to close</li></ul></div>
     </section>
 
     <div class="next-cs"><a class="btn" href="#work">Back to all work</a><a class="btn primary" href="#/explore">Next: Explore page</a></div>
@@ -818,7 +930,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       <h1 class="cs-title" style="--c:var(--sun)">The Explore page</h1>
       <p class="cs-lede">A top consumer lending firm's app had 52M+ users who opened it to pay an EMI and left. I designed a page to make them stay and discover.</p>
       <div class="glance">
-        <div><b>My role</b><span>Product management, Digital Platforms</span></div>
+        <div><b>My role</b><span>Product Management Intern, Digital Platforms</span></div>
         <div><b>Timeline</b><span>Apr to Jun 2025</span></div>
         <div><b>Team</b><span>Product, design, tech, marketing, SEO</span></div>
         <div><b>Research</b><span>27 interviews, 94 surveys</span></div>
@@ -983,7 +1095,340 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
       </div>
     </section>
 
-    <div class="next-cs"><a class="btn" href="#/dastaar">Previous: DASTAAR</a><a class="btn primary" href="#contact">Get in touch</a></div>
+    <div class="next-cs"><a class="btn" href="#/dastaar">Previous: DASTAAR</a><a class="btn primary" href="#/bschool">Next: B-school career platform</a></div>
+  </div>
+</main>
+
+<!-- ======================= BSCHOOL BUDDIES CASE STUDY ======================= -->
+<main id="view-bschool" hidden>
+  <div class="wrap">
+    <div class="cs-top">
+      <a class="back" href="#work">Back to all work</a><br>
+      <div class="story" data-id="US-S0" data-a="a" data-who="hiring manager" data-want="the whole project in 30 seconds before I dive in" data-so="I know if it's worth reading on" data-done="Role, length, team and output are in one strip|The launch status is stated honestly"></div>
+      <h1 class="cs-title" style="--c:var(--mint)">B-school career platform</h1>
+      <p class="cs-lede">A 6-week live project with an early-stage startup. I took a kickoff call and a long wishlist to a build-ready MVP: PRDs, high-fidelity designs and a sprint plan.</p>
+      <div class="bb-hero">
+        <figure class="browser" style="margin:0">
+          <div class="chrome" aria-hidden="true"><i></i><i></i><i></i><span>Homepage concept</span></div>
+          <button class="zoom" type="button"><img src="img/bbd-home-top.jpg" width="1440" height="640" alt="Homepage design: audience tabs for students, colleges and companies, search, and a navy hero banner reading 'Land your summer internship before the rush' with cards for an internship, a mentor and a case competition."></button>
+        </figure>
+        <figure class="bb-phone"><div class="phone real sm"><button class="scr zoom" type="button"><img src="img/bbd-mobile.jpg" width="780" height="1690" alt="Mobile homepage design: search, audience tabs, hero banner, category icons and an internship card, with a bottom navigation bar."></button></div></figure>
+      </div>
+      <div class="glance">
+        <div><b>My role</b><span>Product manager</span></div>
+        <div><b>Project</b><span>Live project, 6 weeks</span></div>
+        <div><b>Worked with</b><span>Founders, design and tech</span></div>
+        <div><b>Status</b><span>Designed and build-ready, not launched</span></div>
+      </div>
+      <div class="toc"><a href="#s-problem">Problem</a><a href="#s-users">Users</a><a href="#s-prioritise">Prioritisation</a><a href="#s-prd">PRDs</a><a href="#s-journey">Customer journey</a><a href="#s-decisions">Product decisions</a><a href="#s-plan">Build plan</a><a href="#s-outcome">Outcome</a></div>
+    </div>
+
+    <section class="cs-sec" id="s-problem">
+      <div class="sec-head"><h2>The problem</h2>
+        <div class="story" data-id="US-S1" data-a="a" data-who="founder" data-want="one clear first version instead of every idea at once" data-so="we can launch fast and learn from real students" data-done="The business model is mapped|The wishlist is turned into one problem statement"></div></div>
+      <div class="two">
+        <div class="prose">
+          <p>The startup began as a community where B-school students mentor aspirants for GD-PI and help each other. The founders wanted a website that would serve students, and also bring in colleges and companies, the side that pays.</p>
+          <p>I started with a kickoff call and a long wishlist: internships, jobs, mentorship, courses, webinars, case competitions, plus pages for colleges and companies. Building all of it at once would have taken months.</p>
+          <div class="hmw"><small>How might we</small>turn a long wishlist into a first website students will use, and a small team can actually ship?</div>
+        </div>
+        <div class="box"><h3>The business model I mapped</h3><ul><li><b>Students:</b> a free community, with mentorship priced to pay mentors, not for profit</li><li><b>Colleges:</b> guest lectures, placement prep and webinars</li><li><b>Companies:</b> hiring for internships, fresher roles, live projects and case competitions</li><li>Students bring the audience; colleges and companies bring the revenue</li></ul></div>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="s-users">
+      <div class="sec-head"><h2>Who it's for</h2>
+        <div class="story" data-id="US-S2" data-a="a" data-who="product lead" data-want="to see which users the MVP serves first, and which it holds back" data-so="I can judge the focus of the first release" data-done="Each segment has its pain points|Out-of-scope users are named"></div>
+        <p class="sec-sub">Three student segments along the B-school journey, plus the two paying sides. I mapped each one's pains before choosing features.</p></div>
+      <div class="personas">
+        <div class="persona"><div class="face" style="--c:var(--lilac)">A</div><h3>The aspirant</h3><p class="meta">Preparing for CAT and GD-PI</p><p>Doesn't know where to start, drowns in generic advice, and prepares alone.</p><p class="needs">Needs: credible mentors and peers</p></div>
+        <div class="persona"><div class="face" style="--c:var(--sun)">S</div><h3>The MBA student</h3><p class="meta">The core user, called the "golden customer" at kickoff</p><p>Overwhelmed by summer and final placements, short on live projects and networks.</p><p class="needs">Needs: internships, jobs and placement prep</p></div>
+        <div class="persona"><div class="face" style="--c:var(--mint)">L</div><h3>The alum</h3><p class="meta">Working, a few years out of B-school</p><p>Wants to give back, but mentoring over LinkedIn doesn't fit a busy week.</p><p class="needs">Needs: a structured way to mentor</p></div>
+        <div class="persona"><div class="face" style="--c:var(--peach)">C</div><h3>Colleges and companies</h3><p class="meta">The paying side</p><p>Want to reach B-school talent for training, hiring and case competitions.</p><p class="needs">Gets: a simple "work with us" form in the MVP</p></div>
+      </div>
+      <div class="jtbd">
+        <div><b>Functional job</b>Find guidance, opportunities and mentors in one place</div>
+        <div><b>Emotional job</b>Feel confident, not anxious, about the B-school journey</div>
+        <div><b>Social job</b>Connect with peers, alumni, colleges and companies</div>
+        <div class="out"><b>Held back on purpose</b>Non-MBA aspirants: a big group, but not the first market</div>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="s-prioritise">
+      <div class="sec-head"><h2>How I prioritised</h2>
+        <div class="story" data-id="US-S3" data-a="a" data-who="founder" data-want="to know why some features are in and others wait" data-so="I can defend the scope to my team" data-done="Every feature is scored on the same scale|The cut line is visible"></div>
+        <p class="sec-sub">I scored every feature on reach, impact, confidence and effort. The top three made the MVP; the rest wait for real usage data.</p></div>
+      <div class="table-scroll"><table class="ba rice">
+        <thead><tr><th scope="col">Feature</th><th scope="col">Reach</th><th scope="col">Impact</th><th scope="col">Confidence</th><th scope="col">Effort</th><th scope="col">Score</th></tr></thead>
+        <tbody>
+          <tr class="in"><td>Internship and job listings</td><td>High</td><td>High</td><td>Medium</td><td>Low</td><td><span class="bar" style="--f:1">32</span></td></tr>
+          <tr class="in"><td>Mentorship booking</td><td>High</td><td>High</td><td>High</td><td>Medium</td><td><span class="bar" style="--f:.94">30</span></td></tr>
+          <tr class="in"><td>Placement prep resources</td><td>Medium</td><td>Medium</td><td>High</td><td>Medium</td><td><span class="bar" style="--f:.88">28</span></td></tr>
+          <tr class="cut"><td colspan="6">Cut line: below here waits for version 2</td></tr>
+          <tr><td>Case competition prep tools</td><td>Medium</td><td>High</td><td>Medium</td><td>High</td><td><span class="bar" style="--f:.75">24</span></td></tr>
+          <tr><td>Alumni mentoring sign-up</td><td>Low</td><td>Medium</td><td>High</td><td>Medium</td><td><span class="bar" style="--f:.63">20</span></td></tr>
+        </tbody>
+      </table></div>
+      <p class="note" style="margin-top:12px">Alumni mentoring didn't need a feature at all: a Google Form covers it for now.</p>
+    </section>
+
+    <section class="cs-sec" id="s-prd">
+      <div class="sec-head"><h2>PRDs</h2>
+        <div class="story" data-id="US-S4" data-a="a" data-who="developer on the team" data-want="requirements I can build from without a meeting" data-so="I know what to build, in what order, and how we'll know it worked" data-done="Scope is split into must, should, could and won't|Every requirement has an ID and a priority|Acceptance criteria are testable|Metrics, risks and open questions are written down"></div>
+        <p class="sec-sub">One platform PRD for the MVP, and one for each of the two features that carry it. Pick a tab.</p></div>
+
+      <div class="prd-tabs" role="tablist" aria-label="PRDs">
+        <button role="tab" aria-selected="true" aria-controls="prd-1" id="prd-t1">MVP platform</button>
+        <button role="tab" aria-selected="false" aria-controls="prd-2" id="prd-t2" tabindex="-1">Internship and job search</button>
+        <button role="tab" aria-selected="false" aria-controls="prd-3" id="prd-t3" tabindex="-1">Mentorship booking</button>
+      </div>
+
+      <!-- PRD 1 -->
+      <article class="prd" role="tabpanel" id="prd-1" aria-labelledby="prd-t1">
+        <header class="prd-meta"><h3>PRD: B-school community website, MVP</h3><dl><div><dt>Owner</dt><dd>Harseerat Kaur, PM</dd></div><div><dt>Version</dt><dd>1.0</dd></div><div><dt>Status</dt><dd>Approved for build, not launched</dd></div><div><dt>Reviewers</dt><dd>Founders, design, tech</dd></div></dl></header>
+        <div class="prd-body">
+          <section><h4>1. Summary</h4><p>A website where MBA students find internships and jobs, book mentors, and apply in one step. Colleges and companies reach them through a simple form.</p></section>
+          <section><h4>2. Problem</h4><p>MBA students hunt for openings across LinkedIn, job boards and WhatsApp groups, and most of what they find isn't meant for them. Mentorship happens informally, if at all. The community had no home online, and no way to bring in the paying side.</p></section>
+          <section class="prd-2col"><div><h4>3. Goals</h4><ul><li>Become the first place MBA students check for openings</li><li>Turn free visitors into mentorship bookings</li><li>Give companies a direct channel to MBA talent</li></ul></div><div><h4>Not in version 1</h4><ul><li>Paid courses and a community forum</li><li>A company portal (a form does the job)</li><li>Non-MBA aspirants</li><li>AI resume tools</li></ul></div></section>
+          <section><h4>4. Scope</h4>
+            <div class="table-scroll"><table class="ba prd-t"><thead><tr><th scope="col">Priority</th><th scope="col">What's included</th></tr></thead><tbody>
+              <tr><td><span class="pri must">Must</span></td><td>Sign-up with Google or email, profile and resume; opening listings with search and filters; opening details with one-step apply; mentor profiles with slot booking; admin through Google Sheets</td></tr>
+              <tr><td><span class="pri should">Should</span></td><td>Saved openings; deadline and status emails; a simple dashboard of applications</td></tr>
+              <tr><td><span class="pri could">Could</span></td><td>Recommendations from profile; case competition sign-up; similar openings</td></tr>
+              <tr><td><span class="pri wont">Won't, for now</span></td><td>Forum, payments, company portal, AI resume review</td></tr>
+            </tbody></table></div></section>
+          <section><h4>5. Success metrics</h4>
+            <div class="metric-grid">
+              <div class="north"><small>North star</small><b>Applications per weekly active student</b></div>
+              <div><small>Activation</small><b>Sign-up to first application</b></div>
+              <div><small>Conversion</small><b>Search to apply</b></div>
+              <div><small>Mentorship</small><b>Sessions booked per week</b></div>
+              <div><small>Retention</small><b>Students back after week one</b></div>
+              <div class="guard"><small>Guardrail</small><b>Expired openings shown: zero</b></div>
+            </div>
+            <p class="note" style="margin-top:10px">Targets are set after a 4-week baseline, not guessed before launch.</p></section>
+          <section><h4>6. Risks</h4>
+            <div class="table-scroll"><table class="ba prd-t"><thead><tr><th scope="col">Risk</th><th scope="col">How we handle it</th></tr></thead><tbody>
+              <tr><td>No users on day one</td><td>First mentor session free; launch through the existing community</td></tr>
+              <tr><td>Stale or expired openings</td><td>Deadline field is required; expired openings hidden by default; weekly sheet review</td></tr>
+              <tr><td>Mentor no-shows</td><td>Team confirms every booking; one free reschedule</td></tr>
+              <tr><td>Build takes too long</td><td>Google Sheets as the admin panel; no custom back office in version 1</td></tr>
+            </tbody></table></div></section>
+          <section><h4>7. Open questions</h4><ul><li>What does mentorship cost after the first free session?</li><li>Who reviews new openings each week, and how fast?</li><li>What do colleges pay for: webinars, placement prep or both?</li></ul></section>
+        </div>
+      </article>
+
+      <!-- PRD 2 -->
+      <article class="prd" role="tabpanel" id="prd-2" aria-labelledby="prd-t2" hidden>
+        <header class="prd-meta"><h3>Feature PRD: Internship and job search</h3><dl><div><dt>Owner</dt><dd>Harseerat Kaur, PM</dd></div><div><dt>Version</dt><dd>1.0</dd></div><div><dt>Priority</dt><dd>Must, sprint 1</dd></div><div><dt>Parent</dt><dd>MVP platform PRD</dd></div></dl></header>
+        <div class="prd-body">
+          <section><h4>1. Problem</h4><p>Students waste time on openings that don't fit: wrong experience level, expired deadlines, unpaid roles they can't take. They need to narrow down fast and apply before the deadline.</p></section>
+          <section><h4>2. User stories and acceptance criteria</h4>
+            <div class="us"><p class="as">As an MBA student, I want to filter openings by what matters to me, so that I only see roles I can apply to.</p><ul class="gwt"><li><b>Given</b> I'm on the internships page</li><li><b>When</b> I choose Remote, Marketing and Paid only</li><li><b>Then</b> only matching openings show, the count updates, and each filter appears as a removable chip</li></ul></div>
+            <div class="us"><p class="as">As an MBA student, I want to apply without retyping my details, so that applying takes about a minute.</p><ul class="gwt"><li><b>Given</b> my profile has a resume, email and phone</li><li><b>When</b> I press Apply</li><li><b>Then</b> a modal opens with those details filled in, shows any company questions, and submits in one step</li></ul></div>
+            <div class="us"><p class="as">As a student, I never want to see an opening that has closed, so that I don't waste an application.</p><ul class="gwt"><li><b>Given</b> an opening's deadline has passed</li><li><b>When</b> I search or browse</li><li><b>Then</b> it's hidden by default, and its detail page says it has closed</li></ul></div>
+          </section>
+          <section><h4>3. Requirements</h4>
+            <div class="table-scroll"><table class="ba prd-t"><thead><tr><th scope="col">ID</th><th scope="col">Requirement</th><th scope="col">Priority</th></tr></thead><tbody>
+              <tr><td>S1</td><td>Keyword search across role, company and skills</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>S2</td><td>Filters: experience, work mode, domain, duration (1 to 6 months), stipend, hide expired</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>S3</td><td>Cards show role, company, location, mode, duration, stipend and deadline</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>S4</td><td>Detail page: overview, eligibility, skills, perks, company, with save, share and apply</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>S5</td><td>One-step apply modal with prefilled details and company questions</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>S6</td><td>Sort by deadline (default), newest or stipend</td><td><span class="pri should">Should</span></td></tr>
+              <tr><td>S7</td><td>Save openings and get a reminder 48 hours before the deadline</td><td><span class="pri should">Should</span></td></tr>
+              <tr><td>S8</td><td>Similar openings and a matching mentor on the detail page</td><td><span class="pri could">Could</span></td></tr>
+            </tbody></table></div></section>
+          <section class="prd-2col"><div><h4>4. Edge cases</h4><ul><li>Deadline passes mid-application: block submit and explain why</li><li>No resume on profile: upload inside the modal</li><li>Applying twice: show "Applied on 10 Feb" instead of the button</li><li>No results: suggest removing the last filter</li></ul></div><div><h4>5. Events to track</h4><ul class="code"><li>search_performed</li><li>filter_applied</li><li>opening_viewed</li><li>apply_started</li><li>apply_submitted</li><li>opening_saved</li></ul></div></section>
+        </div>
+      </article>
+
+      <!-- PRD 3 -->
+      <article class="prd" role="tabpanel" id="prd-3" aria-labelledby="prd-t3" hidden>
+        <header class="prd-meta"><h3>Feature PRD: Mentorship booking</h3><dl><div><dt>Owner</dt><dd>Harseerat Kaur, PM</dd></div><div><dt>Version</dt><dd>1.0</dd></div><div><dt>Priority</dt><dd>Must, sprint 2</dd></div><div><dt>Parent</dt><dd>MVP platform PRD</dd></div></dl></header>
+        <div class="prd-body">
+          <section><h4>1. Problem</h4><p>Students want advice from someone who's been through the same placement or interview, but finding and scheduling that person is awkward. Alumni want to help, but only in slots that fit their week.</p></section>
+          <section><h4>2. User stories and acceptance criteria</h4>
+            <div class="us"><p class="as">As an MBA student, I want to book a mentor for my goal, so that I prepare with someone who's done it.</p><ul class="gwt"><li><b>Given</b> I pick "Summer placements" and a domain</li><li><b>When</b> I choose a mentor's open slot and confirm</li><li><b>Then</b> I get an email with a calendar invite, and the slot disappears for others</li></ul></div>
+            <div class="us"><p class="as">As a student who doesn't know whom to pick, I want to be matched, so that choosing isn't a barrier.</p><ul class="gwt"><li><b>Given</b> I press "Match me with a mentor"</li><li><b>When</b> I share my goal and domain</li><li><b>Then</b> the team matches me by hand and I hear back within 24 hours</li></ul></div>
+            <div class="us"><p class="as">As a mentor, I want to set my own slots, so that mentoring fits around work.</p><ul class="gwt"><li><b>Given</b> I'm an approved mentor</li><li><b>When</b> I share my weekly availability</li><li><b>Then</b> only those slots are bookable, and I'm told about each booking</li></ul></div>
+          </section>
+          <section><h4>3. Requirements</h4>
+            <div class="table-scroll"><table class="ba prd-t"><thead><tr><th scope="col">ID</th><th scope="col">Requirement</th><th scope="col">Priority</th></tr></thead><tbody>
+              <tr><td>M1</td><td>Mentor list filtered by goal, domain, company and experience</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>M2</td><td>Mentor card: name, role, company, MBA year, rating, tags and next 3 slots</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>M3</td><td>Book a slot, with email confirmation and a calendar invite</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>M4</td><td>"Match me" request, matched by the team within 24 hours</td><td><span class="pri must">Must</span></td></tr>
+              <tr><td>M5</td><td>First session free for every student</td><td><span class="pri should">Should</span></td></tr>
+              <tr><td>M6</td><td>Rating and short review after each session</td><td><span class="pri could">Could</span></td></tr>
+              <tr><td>M7</td><td>Paid sessions and automatic matching</td><td><span class="pri wont">Won't, for now</span></td></tr>
+            </tbody></table></div></section>
+          <section class="prd-2col"><div><h4>4. How it runs at launch</h4><ul><li>Mentors share availability through a Google Form</li><li>The team confirms each booking by email or WhatsApp</li><li>Mentor cancels: offer the student the next slot automatically</li><li>Student no-show: one free reschedule</li></ul></div><div><h4>5. Metrics</h4><ul><li>Time to match a "Match me" request</li><li>Bookings per mentor page visit</li><li>Sessions completed versus booked</li><li>Average rating and repeat bookings</li></ul></div></section>
+        </div>
+      </article>
+    </section>
+
+    <section class="cs-sec" id="s-journey">
+      <div class="sec-head"><h2>Customer journey</h2>
+        <div class="story" data-id="US-S5" data-a="an" data-who="MBA student" data-want="to go from landing to an application in a few clicks" data-so="I apply before the deadline, not after" data-done="Every way in leads to an opening or a mentor|Applying takes one step|Designs back every step"></div>
+        <p class="sec-sub">I turned my wireframes into high-fidelity designs and a site map. Here's the path a student takes. Tap any screen to enlarge it.</p></div>
+
+      <figure class="card-frame">
+        <button class="zoom" type="button"><img src="img/bbd-ia.jpg" loading="lazy" width="1300" height="573" alt="Site map: the homepage branches into internships and jobs, mentorship, events, my account, and colleges and companies. Each branch lists its pages, marked as in the MVP, soon after launch, or version 2."></button>
+      </figure>
+
+      <ol class="jmap">
+        <li class="jstep" style="--c:var(--lilac)">
+          <div class="jtext">
+            <h3>Lands on the homepage</h3>
+            <p>One site serves three audiences, so tabs at the top split them, the way BookMyShow separates customers from businesses. On a phone, the same page stacks into one column with a bottom bar.</p>
+            <div class="chips"><span>Students</span><span>Colleges</span><span>Companies</span><span>Search</span></div>
+            <p class="detour"><b>A college or company?</b> They get a simple "work with us" form, not a whole portal, until demand proves otherwise.</p>
+          </div>
+          <figure class="jshot"><div class="phone real sm"><button class="scr zoom" type="button"><img src="img/bbd-mobile.jpg" loading="lazy" width="780" height="1690" alt="Mobile homepage design."></button></div><figcaption class="jcap">Homepage on mobile</figcaption></figure>
+        </li>
+
+        <li class="jstep branch" style="--c:var(--sun)">
+          <div class="jtext">
+            <h3>Picks a way in</h3>
+            <p>Three ways in, matched to the top-scored features. Internships get the most space, because that's the platform's strength.</p>
+          </div>
+          <div class="fan three">
+            <figure class="way" style="--pos:left top"><button class="way-img zoom" type="button"><img src="img/bbd-search.jpg" loading="lazy" width="1440" height="1057" alt="Internship search design: filters on the left for experience, work mode, domain, duration, stipend and hiding expired openings; 24 results with active filter chips, sorted by deadline."></button><figcaption><b>Internships and jobs</b>Search, filter and sort live openings, then save or apply from the list.</figcaption></figure>
+            <figure class="way" style="--pos:left top"><button class="way-img zoom" type="button"><img src="img/bbd-mentor.jpg" loading="lazy" width="1440" height="994" alt="Mentorship design: a 'first session is free' banner, goal filters and mentor cards with company, rating and next available slots."></button><figcaption><b>Mentorship</b>Pick a goal, then a mentor and a slot. Or ask to be matched.</figcaption></figure>
+            <figure class="way" style="--pos:left top"><button class="way-img zoom" type="button"><img src="img/bbd-events.jpg" loading="lazy" width="660" height="285" alt="Case competitions and webinars section with a dated event card."></button><figcaption><b>Case competitions and webinars</b>See what's coming up and sign up for the next event.</figcaption></figure>
+          </div>
+          <p class="merge">All three lead to a detail page</p>
+        </li>
+
+        <li class="jstep" style="--c:var(--mint)">
+          <div class="jtext">
+            <h3>Narrows it down</h3>
+            <p>Filters answer the questions MBA students actually ask about an internship. Each one shows as a chip that's one tap to remove.</p>
+            <div class="optrow"><b>Experience</b><div class="chips"><span>Fresher</span><span>Under 2 years</span><span>2 to 3 years</span></div></div>
+            <div class="optrow"><b>Mode</b><div class="chips"><span>Remote</span><span>Onsite</span><span>Hybrid</span></div></div>
+            <div class="optrow"><b>Pay</b><div class="chips"><span>Paid only</span><span>Any</span></div></div>
+            <div class="optrow"><b>Duration</b><div class="chips"><span>1 to 6 months, on a slider</span></div></div>
+            <div class="optrow"><b>Deadline</b><div class="chips"><span>Hide expired, on by default</span></div></div>
+          </div>
+        </li>
+
+        <li class="jstep" style="--c:var(--peach)">
+          <div class="jtext">
+            <h3>Checks the details</h3>
+            <p>Stipend, duration, start date and deadline sit in one strip. The apply card counts down to the deadline, and the side panel suggests a mentor who works at the same company.</p>
+            <p class="detour"><b>The cross-sell:</b> an internship page nudges students towards mentorship, turning a free visit into a possible paid session.</p>
+          </div>
+          <figure class="jshot wide"><div class="browser sm"><div class="chrome" aria-hidden="true"><i></i><i></i><i></i></div><button class="zoom" type="button"><img src="img/bbd-detail.jpg" loading="lazy" width="1440" height="893" alt="Internship detail design: Brand Marketing Intern at Nimbus Foods, with stipend, duration, start date and deadline, tabs, role details, an apply card with a countdown, a mentor nudge and similar internships."></button></div><figcaption class="jcap">Internship detail</figcaption></figure>
+        </li>
+
+        <li class="jstep" style="--c:var(--pink)">
+          <div class="jtext">
+            <h3>Applies in one step</h3>
+            <p>Apply opens a modal, not a new page. The resume, email and phone come from the profile, and only the company's own questions need an answer.</p>
+            <div class="flow tight"><div class="st">Resume<small>from profile</small></div><span class="ar"></span><div class="st">Email and phone<small>prefilled</small></div><span class="ar"></span><div class="st">Company questions<small>e.g. start date</small></div><span class="ar"></span><div class="st go">Submit</div></div>
+          </div>
+          <figure class="jshot wide"><div class="browser sm"><div class="chrome" aria-hidden="true"><i></i><i></i><i></i></div><button class="zoom" type="button"><img src="img/bbd-apply.jpg" loading="lazy" width="1440" height="1001" alt="Apply modal design: resume from profile, a 'coming soon' resume match check, prefilled email and phone, a start date question, an optional note and a Submit application button."></button></div><figcaption class="jcap">Apply modal</figcaption></figure>
+        </li>
+
+        <li class="jstep end" style="--c:var(--blue)">
+          <div class="jtext">
+            <h3>Tracks it</h3>
+            <p>The dashboard shows every application's status, what's coming up this week, and how complete the profile is. The next deadline and mentor session are always one glance away.</p>
+          </div>
+          <figure class="jshot wide"><div class="browser sm"><div class="chrome" aria-hidden="true"><i></i><i></i><i></i></div><button class="zoom" type="button"><img src="img/bbd-dash.jpg" loading="lazy" width="1440" height="1001" alt="Dashboard design: counts of applied, shortlisted, interviews and saved; a table of applications with statuses; upcoming deadlines, a mentor session and an interview; and profile completeness."></button></div><figcaption class="jcap">Student dashboard</figcaption></figure>
+        </li>
+      </ol>
+
+      <div class="ds">
+        <h3 class="flow-title" style="margin:0 0 14px">The design system behind the screens</h3>
+        <div class="ds-grid">
+          <div class="ds-sw" style="--s:#16235A"><i></i><b>Blazer navy</b><small>#16235A, trust and structure</small></div>
+          <div class="ds-sw" style="--s:#F5A524"><i></i><b>Marigold</b><small>#F5A524, primary actions</small></div>
+          <div class="ds-sw" style="--s:#0E9F8E"><i></i><b>Teal</b><small>#0E9F8E, stipends and success</small></div>
+          <div class="ds-sw" style="--s:#D9435E"><i></i><b>Rose</b><small>#D9435E, deadlines only</small></div>
+          <div class="ds-type"><b>Plus Jakarta Sans</b><small>One family, 5 weights. Bold for headings, regular for body.</small></div>
+        </div>
+        <p class="note" style="margin-top:10px">Rose is reserved for deadlines, so urgency never gets lost among other colours. All company and mentor names in the designs are made up.</p>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="s-decisions">
+      <div class="sec-head"><h2>Product decisions</h2>
+        <div class="story" data-id="US-S6" data-a="a" data-who="product lead" data-want="to see what she cut and why" data-so="I know she can protect a small team's time" data-done="Each decision names the trade-off|Options are compared, not just picked"></div>
+        <p class="sec-sub">The calls that kept the MVP small enough to ship, starting with the biggest one.</p></div>
+
+      <h3 class="flow-title" style="margin-bottom:12px">The homepage call: content-rich, minimal, or both?</h3>
+      <div class="table-scroll"><table class="ba opts">
+        <thead><tr><th scope="col"></th><th scope="col">Unstop-style<br><small>content-rich</small></th><th scope="col">Zomato Live-style<br><small>minimal</small></th><th scope="col">Hybrid<br><small>my pick</small></th></tr></thead>
+        <tbody>
+          <tr><td>Design complexity</td><td>High</td><td>Low</td><td>Medium</td></tr>
+          <tr><td>Time to build</td><td>Longer</td><td>Shorter</td><td>Moderate</td></tr>
+          <tr><td>Cost</td><td>Higher</td><td>Lower</td><td>Moderate</td></tr>
+          <tr><td>First visit</td><td>Complete but dense</td><td>Clean but thin</td><td>Focused and informative</td></tr>
+          <tr><td>Room to grow</td><td>Excellent</td><td>Limited</td><td>Good</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note" style="margin:12px 0 30px">The hybrid homepage keeps Zomato Live's clean top (logo, search, one banner) and adds Unstop's category rows below, led by internships.</p>
+
+      <div class="decisions">
+        <div class="dec" style="--c:var(--sun)"><h3>Internships lead</h3><p>They scored highest and are the platform's strength, so they get the most homepage space. Courses stay small for now.</p><span>In the journey: step 2</span></div>
+        <div class="dec" style="--c:var(--mint)"><h3>Match mentors by hand</h3><p>A matching algorithm is expensive to build. The team assigns mentors manually first, and automates once the patterns are clear.</p><span>In the mentorship PRD: M4</span></div>
+        <div class="dec" style="--c:var(--pink)"><h3>Google Sheets as the admin panel</h3><p>The team adds openings to a Google Sheet that syncs to the site. That saves building an admin panel before anyone uses it.</p><span>In the platform PRD: scope</span></div>
+        <div class="dec" style="--c:var(--lilac)"><h3>Solve the cold start</h3><p>A new platform has no users. Free first mentorship sessions give students a reason to sign up in the early weeks.</p><span>In the mentorship PRD: M5</span></div>
+        <div class="dec" style="--c:var(--peach)"><h3>Forms, not portals, for B2B</h3><p>Colleges and companies get a contact form, like Zomato Live's "list your business". A full portal waits until demand shows up.</p><span>In the journey: step 1</span></div>
+        <div class="dec" style="--c:var(--sun)"><h3>Hide what's expired</h3><p>Nothing frustrates a student more than a closed role. Expired openings are hidden by default, and deadlines get their own colour.</p><span>In the search PRD: S2</span></div>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="s-plan">
+      <div class="sec-head"><h2>Build plan</h2>
+        <div class="story" data-id="US-S7" data-a="a" data-who="developer on the team" data-want="a clear scope, sequence and effort estimate" data-so="I can start building without guessing" data-done="Sprints are sequenced|Effort is estimated in hours|Build and hosting options are compared"></div>
+        <p class="sec-sub">I turned the PRDs into sprints, estimated the effort, and compared ways to build and host the site.</p></div>
+      <div class="roadmap">
+        <div><b>Sprint 1</b><small>Weeks 1–3</small><p>Sign-up and profiles, posting openings, search with filters</p></div>
+        <div><b>Sprint 2</b><small>Weeks 4–6</small><p>Mentor booking, application tracking, deadline and status emails</p></div>
+        <div><b>Sprint 3</b><small>Weeks 7–9</small><p>Basic recommendations, views and applications analytics</p></div>
+        <div><b>Launch</b><small>Week 10</small><p>Staging, QA and bug fixes, then go live</p></div>
+        <div><b>Next</b><small>After launch</small><p>Social login, resume parsing, custom admin panel, AI resume review</p></div>
+      </div>
+      <div class="two" style="margin-top:30px">
+        <div>
+          <h3 class="flow-title" style="margin:0 0 12px">MVP effort estimate</h3>
+          <table class="ba hours">
+            <thead><tr><th scope="col">Work</th><th scope="col">Hours</th></tr></thead>
+            <tbody>
+              <tr><td>Back end: data, sign-up, openings, applications</td><td>70</td></tr>
+              <tr><td>Front end: homepage, search, profile, apply</td><td>60</td></tr>
+              <tr><td>Testing</td><td>10–20</td></tr>
+              <tr><td>Setup</td><td>8</td></tr>
+              <tr><td>Deployment</td><td>5</td></tr>
+              <tr class="total"><td>MVP total</td><td>~155–165</td></tr>
+            </tbody>
+          </table>
+          <p class="note" style="margin-top:10px">Plus 30 hours for the AI resume and job-match tools, held for version 2.</p>
+        </div>
+        <div class="box"><h3>How to build and host it</h3><ul><li><b>Wix</b> to launch in days, at the lowest cost</li><li><b>WordPress</b> as the site grows, for SEO and plugins</li><li><b>Custom code (Node.js)</b> only once a custom job board or analytics justify it</li><li><b>Hosting:</b> compared 5 providers, from ₹60 a month</li></ul></div>
+      </div>
+    </section>
+
+    <section class="cs-sec" id="s-outcome">
+      <div class="sec-head"><h2>Outcome</h2>
+        <div class="story" data-id="US-S8" data-a="a" data-who="hiring manager" data-want="to see what she left the team with" data-so="I know the work was usable, not just thorough" data-done="Deliverables are listed|The launch status is stated plainly|Success metrics are defined before launch"></div>
+        <p class="sec-sub">In 6 weeks, the team went from a kickoff call to a scoped, designed and estimated MVP. The site didn't go live, so there are no usage numbers; here's what I handed over.</p></div>
+      <div class="stats">
+        <div class="stat" style="--c:var(--sun)"><span class="n">3</span><p>PRDs: the platform, search, and mentorship</p></div>
+        <div class="stat" style="--c:var(--mint)"><span class="n">12</span><p>competitors benchmarked, page by page</p></div>
+        <div class="stat" style="--c:var(--pink)"><span class="n">7</span><p>high-fidelity screens, desktop and mobile</p></div>
+        <div class="stat" style="--c:var(--lilac)"><span class="n">10</span><p>weeks from build start to launch, fully estimated</p></div>
+      </div>
+      <div class="two" style="margin-top:28px">
+        <div class="box"><h3>If it had launched, I'd watch</h3><ul><li><b>First 2 weeks:</b> sign-up to first application, and where students drop off in search</li><li><b>First month:</b> mentor bookings per week and session completion</li><li><b>After a baseline:</b> set targets for applications per weekly active student</li></ul></div>
+        <div class="box"><h3>What I learned</h3><ul><li>A startup's wishlist is a backlog, not a scope. The job is to pick the first three</li><li>Borrow patterns from apps people already use, even outside your industry</li><li>Cheap tools like Google Sheets and forms can stand in for features until users prove the need</li></ul></div>
+      </div>
+    </section>
+
+    <div class="next-cs"><a class="btn" href="#/explore">Previous: Explore page</a><a class="btn primary" href="#contact">Get in touch</a></div>
   </div>
 </main>
 
@@ -1032,7 +1477,7 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
   document.querySelectorAll('.zoom').forEach(function(btn){
     var img=btn.querySelector('img'); btn.setAttribute('aria-label','Enlarge: '+img.alt);
     btn.addEventListener('click',function(){
-      lbImg.src=img.src; lbImg.alt=img.alt;
+      lbImg.src=img.src; lbImg.alt=img.alt; lb.classList.toggle('wide', img.naturalWidth>img.naturalHeight);
       var fig=btn.closest('figure'), cap=fig?fig.querySelector('figcaption'):null; lbCap.innerHTML=cap?cap.innerHTML:'';
       if(lb.showModal) lb.showModal(); else window.open(img.src,'_blank');
     });
@@ -1040,9 +1485,17 @@ footer{padding:26px 0 40px;text-align:center;font-weight:600;color:var(--muted);
   lb.querySelector('.lb-close').addEventListener('click',function(){lb.close();});
   lb.addEventListener('click',function(e){ if(e.target===lb) lb.close(); });
 
+  /* PRD tabs */
+  var tabs=[].slice.call(document.querySelectorAll('.prd-tabs [role="tab"]'));
+  function selectTab(t){ tabs.forEach(function(x){ var on=x===t; x.setAttribute('aria-selected',String(on)); x.tabIndex=on?0:-1; document.getElementById(x.getAttribute('aria-controls')).hidden=!on; }); }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){ selectTab(t); });
+    t.addEventListener('keydown',function(e){ var n=null; if(e.key==='ArrowRight') n=tabs[(i+1)%tabs.length]; if(e.key==='ArrowLeft') n=tabs[(i-1+tabs.length)%tabs.length]; if(n){ e.preventDefault(); selectTab(n); n.focus(); } });
+  });
+
   /* simple router: #/dastaar and #/explore are case study pages, anything else is home */
-  var views={home:document.getElementById('view-home'),dastaar:document.getElementById('view-dastaar'),explore:document.getElementById('view-explore')};
-  var titles={home:'Harseerat Kaur | Product Manager',dastaar:'DASTAAR case study | Harseerat Kaur',explore:'Explore page case study | Harseerat Kaur'};
+  var views={home:document.getElementById('view-home'),dastaar:document.getElementById('view-dastaar'),explore:document.getElementById('view-explore'),bschool:document.getElementById('view-bschool')};
+  var titles={home:'Harseerat Kaur | Product Manager',dastaar:'DASTAAR case study | Harseerat Kaur',explore:'Explore page case study | Harseerat Kaur',bschool:'B-school career platform case study | Harseerat Kaur'};
   var current=null;
   function route(){
     var h=location.hash||'', v='home', target=null;
